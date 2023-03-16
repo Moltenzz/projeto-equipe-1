@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #264E13;
+    color: white;
+    text-align:center
+}
+
+header img.wandao {
+    width: 50%;
+}
+
+.legal-pra-carai:hover {
+background-color: blueviolet;
+}
