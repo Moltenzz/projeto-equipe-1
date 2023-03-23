@@ -1,17 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 body {
     margin: 0;
 }
 
 header {
-    background-color: #264E13;
+    background-color: #395B64;
+    font-family: 'VT323', monospace;
     color: white;
-    text-align:center
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
 }
 
-header img.wandao {
-    width: 50%;
+header h1 {
+	font-size: 4rem;
 }
 
-.legal-pra-carai:hover {
-background-color: blueviolet;
+header .links {
+	font-size: 2rem;
+	list-style: none;
+}
+
+header .links li {
+	transition: .4s;
+	padding: 0.75rem;
+}
+
+header .links li:hover {
+	background-color: #A5C9CA;
+	margin: .25rem 0 .25rem 0;
+	border-radius: .25rem
 }
