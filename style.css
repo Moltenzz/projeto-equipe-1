@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -12,7 +16,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 12rem;
+    padding: 3rem 3rem 6rem 3rem;
 }
 
 header h1 {
@@ -24,13 +28,44 @@ header .links {
 	list-style: none;
 }
 
-header .links li {
-	transition: .4s;
+header .links a {
+    text-decoration: none;
+}
+
+header .links a li {
+    color: white;
+    transition: .4s;
 	padding: 0.75rem;
 }
 
-header .links li:hover {
+header .links a li:hover {
 	background-color: #A5C9CA;
 	margin: .25rem 0 .25rem 0;
 	border-radius: .25rem
+}
+
+main {
+    background-color: #A5C9CA;
+    border-radius: .25rem;
+    font-family: 'Share Tech', sans-serif;
+    width: 85%;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: auto;
+    margin-top: -5rem;
+}
+
+.student-image {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.student-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+div.text-content {
+    width: 50%;
 }
