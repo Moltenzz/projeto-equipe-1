@@ -54,18 +54,37 @@ main {
     margin-top: -5rem;
 }
 
+main h2 {
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 1.25rem;
+}
+
 .student-image {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 3rem;
     justify-content: space-around;
 }
 
 .student-image img {
     width: 300px;
     height: 300px;
+    border: .5rem solid  #395B64;
     border-radius: 50%;
+    transition: .4s;
+}
+
+.student-image img:hover {
+    scale: 1.10;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+
 }
 
 div.text-content {
-    width: 50%;
+    background-color:  #7c9d9e;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50%
 }
